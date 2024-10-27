@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker Palette</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="palette">
+            <h2>Choose a Color</h2>
+            <table id="colorTable">
+                <tr>
+                    <td class="color-cell" data-color="red" style="background-color: red;"></td>
+                    <td class="color-cell" data-color="blue" style="background-color: blue;"></td>
+                    <td class="color-cell" data-color="green" style="background-color: green;"></td>
+                </tr>
+                <tr>
+                    <td class="color-cell" data-color="yellow" style="background-color: yellow;"></td>
+                    <td class="color-cell" data-color="purple" style="background-color: purple;"></td>
+                    <td class="color-cell" data-color="orange" style="background-color: orange;"></td>
+                </tr>
+            </table>
+            <div id="message">Hello world!</div>
+        </div>
+        <div class="history">
+            <h2>Color History</h2>
+            <ul id="colorHistory"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
